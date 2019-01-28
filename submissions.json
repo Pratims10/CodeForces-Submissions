@@ -457,6 +457,22 @@
     ],
     "timestamp": "Dec/21/2020 12:09"
   },
+  "CF49080579": {
+    "contest_id": 1105,
+    "language": "GNU C++14",
+    "path": "codeforces\\1105\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "Salem and Sticks ",
+    "problem_url": "https://codeforces.com/contest/1105/problem/A",
+    "submission_id": "CF49080579",
+    "submission_url": "https://codeforces.com/contest/1105/submission/49080579",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Jan/28/2019 11:29"
+  },
   "CF49086425": {
     "contest_id": 1105,
     "language": "GNU C++14",
