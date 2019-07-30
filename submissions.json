@@ -457,6 +457,23 @@
     ],
     "timestamp": "Dec/21/2020 12:09"
   },
+  "CF57993276": {
+    "contest_id": 359,
+    "language": "GNU C++14",
+    "path": "codeforces\\359\\B.cpp",
+    "problem_index": "B",
+    "problem_name": "Permutation",
+    "problem_url": "https://codeforces.com/contest/359/problem/B",
+    "submission_id": "CF57993276",
+    "submission_url": "https://codeforces.com/contest/359/submission/57993276",
+    "tags": [
+      "constructive algorithms",
+      "dp",
+      "math",
+      "*1400"
+    ],
+    "timestamp": "Jul/30/2019 19:33"
+  },
   "CF57996612": {
     "contest_id": 1199,
     "language": "GNU C++14",
