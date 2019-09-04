@@ -457,6 +457,25 @@
     ],
     "timestamp": "Dec/21/2020 12:09"
   },
+  "CF60042212": {
+    "contest_id": 1051,
+    "language": "GNU C++14",
+    "path": "codeforces\\1051\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Vasya and Multisets",
+    "problem_url": "https://codeforces.com/contest/1051/problem/C",
+    "submission_id": "CF60042212",
+    "submission_url": "https://codeforces.com/contest/1051/submission/60042212",
+    "tags": [
+      "brute force",
+      "dp",
+      "greedy",
+      "implementation",
+      "math",
+      "*1500"
+    ],
+    "timestamp": "Sep/05/2019 00:16"
+  },
   "CF60751604": {
     "contest_id": 1215,
     "language": "GNU C++14",
