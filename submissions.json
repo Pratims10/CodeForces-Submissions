@@ -457,6 +457,23 @@
     ],
     "timestamp": "Dec/21/2020 12:09"
   },
+  "CF60857761": {
+    "contest_id": 1221,
+    "language": "GNU C++14",
+    "path": "codeforces\\1221\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "2048 Game",
+    "problem_url": "https://codeforces.com/contest/1221/problem/A",
+    "submission_id": "CF60857761",
+    "submission_url": "https://codeforces.com/contest/1221/submission/60857761",
+    "tags": [
+      "brute force",
+      "greedy",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Sep/19/2019 20:18"
+  },
   "CF60876161": {
     "contest_id": 1221,
     "language": "GNU C++14",
