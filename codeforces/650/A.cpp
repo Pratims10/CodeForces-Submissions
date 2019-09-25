@@ -10,7 +10,7 @@ int main()
 	for(i=0;i<n;i++)
 	{
 		cin>>a>>b;
-		ar.push_back({a,b});
+		ar.push_back(make_pair(a,b));
 		f1[a]++;
 		f2[b]++;
 	}
