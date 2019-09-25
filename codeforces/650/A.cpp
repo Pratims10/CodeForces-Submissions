@@ -6,7 +6,7 @@ int main()
 	ll i,j,k,m,n,ctr,a,b;
 	cin>>n;
 	vector<pair<ll,ll> >ar;
-	map<ll,ll> f1,f2;
+	unordered_map<ll,ll> f1,f2;
 	for(i=0;i<n;i++)
 	{
 		cin>>a>>b;
