@@ -33,6 +33,6 @@ int main()
 				dq.pop_front();
 			}
 		}
-		cout<<ctr<<endl; 
+		cout<<ctr<<endl;
 	}
 }
