@@ -39,6 +39,6 @@ int main()
 		cout<<n<<' '<<1<<endl;
 		m-=n;
 		for(i=0;i<m;i++)
-		cout<<mi<<' '<<mj<<endl;
+		cout<<mi+1<<' '<<mj+1<<endl;
 	}
 }
