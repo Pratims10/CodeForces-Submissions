@@ -457,6 +457,22 @@
     ],
     "timestamp": "Dec/21/2020 12:09"
   },
+  "CF70517839": {
+    "contest_id": 1296,
+    "language": "PyPy 3",
+    "path": "codeforces\\1296\\D.py",
+    "problem_index": "D",
+    "problem_name": "Fight with Monsters",
+    "problem_url": "https://codeforces.com/contest/1296/problem/D",
+    "submission_id": "CF70517839",
+    "submission_url": "https://codeforces.com/contest/1296/submission/70517839",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*1500"
+    ],
+    "timestamp": "Feb/07/2020 22:24"
+  },
   "CF71365513": {
     "contest_id": 1307,
     "language": "GNU C++14",
