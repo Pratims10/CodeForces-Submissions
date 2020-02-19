@@ -457,6 +457,24 @@
     ],
     "timestamp": "Dec/21/2020 12:09"
   },
+  "CF71442863": {
+    "contest_id": 253,
+    "language": "GNU C++14",
+    "path": "codeforces\\253\\B.cpp",
+    "problem_index": "B",
+    "problem_name": "Physics Practical",
+    "problem_url": "https://codeforces.com/contest/253/problem/B",
+    "submission_id": "CF71442863",
+    "submission_url": "https://codeforces.com/contest/253/submission/71442863",
+    "tags": [
+      "binary search",
+      "dp",
+      "sortings",
+      "two pointers",
+      "*1400"
+    ],
+    "timestamp": "Feb/19/2020 19:49"
+  },
   "CF71442958": {
     "contest_id": 797,
     "language": "GNU C++14",
