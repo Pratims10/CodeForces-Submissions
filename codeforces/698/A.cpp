@@ -1,0 +1,110 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define ll long long int
+int main()
+{
+	ll i,j=0,k,m,n,ans;
+	cin>>n;
+	ll ar[n];
+	ans=0;
+	for(i=0;i<n;i++)
+	cin>>ar[i];
+	for(i=0;i<n;i++)
+	{
+		if(ar[i]==1)
+		{
+			if(i!=0)
+			{
+				if(j==1)
+				j=0;
+				else
+				{
+					ans++;
+					j=ar[i];
+				}
+			}
+			else
+			{
+				ans++;
+				j=1;
+			}
+		}
+		else if(ar[i]==2)
+		{
+			if(i==0)
+			{
+				ans++;
+				j=2;
+			}
+			else
+			{
+				if(j!=2)
+				{
+					ans++;
+					j=ar[i];
+				}
+				else j=0;
+			}
+		}
+		else if(ar[i]==0) j=ar[i];
+		else
+		{
+			ll ctr=0;
+			while(i<n&&ar[i]==3)
+			{
+				i++;
+				ctr++;
+			}
+			if(i==n)
+			ans+=ctr;
+			else
+			{
+				if(ar[i]==0)
+				{
+					ans+=ctr;
+					j=0;
+				}
+				else if(j==0)
+				{
+					if(ar[i]==0)
+					{
+						ans+=ctr;
+						j=0;
+					}
+					else
+					{
+						ans+=ctr+1;
+						j=ar[i];
+					}
+				}
+				else
+				{
+					if(ctr%2==1)
+					{
+						if(j==ar[i])
+						ans+=ctr+1;
+						else
+						{
+							ans+=ctr;
+							j=0;
+						}
+					}
+					else
+					{
+						if(j!=ar[i])
+						{
+							ans+=ctr+1;
+							j=ar[i];
+						}
+						else
+						{
+							ans+=ctr;
+							j=0;
+						}
+					}
+				}
+			}
+		}
+	}
+	cout<<n-ans;
+}
