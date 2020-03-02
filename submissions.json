@@ -457,6 +457,22 @@
     ],
     "timestamp": "Dec/21/2020 12:09"
   },
+  "CF72226609": {
+    "contest_id": 607,
+    "language": "GNU C++14",
+    "path": "codeforces\\607\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "Chain Reaction",
+    "problem_url": "https://codeforces.com/contest/607/problem/A",
+    "submission_id": "CF72226609",
+    "submission_url": "https://codeforces.com/contest/607/submission/72226609",
+    "tags": [
+      "binary search",
+      "dp",
+      "*1600"
+    ],
+    "timestamp": "Mar/02/2020 09:45"
+  },
   "CF72779452": {
     "contest_id": 1249,
     "language": "GNU C++14",
