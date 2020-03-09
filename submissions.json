@@ -457,6 +457,22 @@
     ],
     "timestamp": "Dec/21/2020 12:09"
   },
+  "CF72779452": {
+    "contest_id": 1249,
+    "language": "GNU C++14",
+    "path": "codeforces\\1249\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "By Elevator or Stairs?",
+    "problem_url": "https://codeforces.com/contest/1249/problem/E",
+    "submission_id": "CF72779452",
+    "submission_url": "https://codeforces.com/contest/1249/submission/72779452",
+    "tags": [
+      "dp",
+      "shortest paths",
+      "*1700"
+    ],
+    "timestamp": "Mar/09/2020 16:18"
+  },
   "CF72781554": {
     "contest_id": 44,
     "language": "GNU C++14",
