@@ -457,6 +457,22 @@
     ],
     "timestamp": "Dec/21/2020 12:09"
   },
+  "CF72952566": {
+    "contest_id": 4,
+    "language": "GNU C++14",
+    "path": "codeforces\\4\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Mysterious Present",
+    "problem_url": "https://codeforces.com/contest/4/problem/D",
+    "submission_id": "CF72952566",
+    "submission_url": "https://codeforces.com/contest/4/submission/72952566",
+    "tags": [
+      "dp",
+      "sortings",
+      "*1700"
+    ],
+    "timestamp": "Mar/11/2020 17:44"
+  },
   "CF72981138": {
     "contest_id": 611,
     "language": "GNU C++14",
