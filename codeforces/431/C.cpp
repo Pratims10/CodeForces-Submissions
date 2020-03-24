@@ -2,9 +2,9 @@
 using namespace std;
 #define ll long long int
 ll n,k,d;
-ll dp[10001][2];
+ll dp[101][10001][2];
 ll mod=1000000007;
-ll func(ll sum,ll flag)
+ll func(ll idx,ll sum,ll flag)
 {
 	if(sum>n)
 	return 0;
@@ -18,23 +18,24 @@ ll func(ll sum,ll flag)
 			return 0;
 		}
 	}
-	if(dp[sum][flag]!=-1)
-	return dp[sum][flag];
+	if(dp[idx][sum][flag]!=-1)
+	return dp[idx][sum][flag];
 	ll ans=0;
 	for(ll i=1;i<=k;i++)
 	{
 		if(i>=d)
-		ans=(ans%mod+func(sum+i,1)%mod)%mod;
-		else ans=(ans%mod+func(sum+i,flag)%mod)%mod;
+		ans=(ans%mod+func(idx+1,sum+i,1)%mod)%mod;
+		else ans=(ans%mod+func(idx+1,sum+i,flag)%mod)%mod;
 	}
-	return dp[sum][flag]=ans;
+	return dp[idx][sum][flag]=ans;
 }
 int main()
 {
 	ll i,j;
 	cin>>n>>k>>d;
-	//for(i=0;i<101;i++)
+	for(i=0;i<101;i++){
 		for(j=0;j<10001;j++)
-		dp[j][0]=dp[j][1]=-1;
-	cout<<func(0,0);
+		dp[i][j][0]=dp[i][j][1]=-1;
+	}
+	cout<<func(0,0,0);
 }
