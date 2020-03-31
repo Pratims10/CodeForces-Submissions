@@ -13,15 +13,15 @@ void reroot(ll x)
 	{
 		if(!vis[to])
 		{
-			val[x]-=val[to]+ar[to]+dp[to];
+			val[x]-=val[to]+dp[to]+ar[to];
 			dp[x]-=ar[to]+dp[to];
 			dp[to]+=ar[x]+dp[x];
-			val[to]+=val[x]+ar[x]+dp[x];
+			val[to]+=val[x]+dp[x]+ar[x];
 			reroot(to);
-			val[to]-=val[x]+ar[x]+dp[x];
+			val[to]-=val[x]+dp[x]+ar[x];
 			dp[to]-=ar[x]+dp[x];
 			dp[x]+=ar[to]+dp[to];
-			val[x]+=val[to]+ar[to]+dp[to];
+			val[x]+=val[to]+dp[to]+ar[to];
 		}
 	}
 }
@@ -48,10 +48,10 @@ void dfs2(ll x)
 		if(!vis[to])
 		{
 			dfs2(to);
-			val[x]+=val[to];
+			val[x]+=val[to]+dp[to]+ar[to];
 		}
 	}
-	val[x]+=dp[x];
+//	val[x]+=dp[x];
 }
 int main()
 {
@@ -70,6 +70,11 @@ int main()
 	dfs(0);
 	memset(vis,false,sizeof(vis));
 	dfs2(0);
+	/*
+	for(i=0;i<n;i++)
+	cout<<val[i]<<' ';
+	cout<<endl;
+	*/
 	memset(vis,false,sizeof(vis));
 	reroot(0);
 	ll mm=0;
