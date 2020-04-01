@@ -457,6 +457,23 @@
     ],
     "timestamp": "Dec/21/2020 12:09"
   },
+  "CF75043110": {
+    "contest_id": 212,
+    "language": "GNU C++14",
+    "path": "codeforces\\212\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "IT Restaurants",
+    "problem_url": "https://codeforces.com/contest/212/problem/E",
+    "submission_id": "CF75043110",
+    "submission_url": "https://codeforces.com/contest/212/submission/75043110",
+    "tags": [
+      "dfs and similar",
+      "dp",
+      "trees",
+      "*1500"
+    ],
+    "timestamp": "Apr/01/2020 11:18"
+  },
   "CF82594511": {
     "contest_id": 1362,
     "language": "GNU C++17",
