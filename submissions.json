@@ -3112,6 +3112,22 @@
     ],
     "timestamp": "Apr/01/2020 11:18"
   },
+  "CF75171350": {
+    "contest_id": 38,
+    "language": "GNU C++17",
+    "path": "codeforces\\38\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Let's Go Rolling!",
+    "problem_url": "https://codeforces.com/contest/38/problem/E",
+    "submission_id": "CF75171350",
+    "submission_url": "https://codeforces.com/contest/38/submission/75171350",
+    "tags": [
+      "dp",
+      "sortings",
+      "*1800"
+    ],
+    "timestamp": "Apr/02/2020 00:00"
+  },
   "CF75242043": {
     "contest_id": 61,
     "language": "GNU C++17",
