@@ -21,11 +21,11 @@ ld func(ll i,ll prv)
 	if(dp[i][prv]!=-1)
 	return dp[i][prv];
 	ld ret=0;
-	if(prv==0)
-	{
-		ret=max(ar[i].p+func(i+1,i),func(i+1,prv));
-	}
-	else
+//	if(prv==0)
+//	{
+//		ret=max(ar[i].p+func(i+1,i),func(i+1,prv));
+//	}
+//	else
 	{
 		ld dist=sqrt((ar[i].x-ar[prv].x)*(ar[i].x-ar[prv].x) + (ar[i].y-ar[prv].y)*(ar[i].y-ar[prv].y));
 		if(dist<=abs(ar[i].t-ar[prv].t))
@@ -45,6 +45,8 @@ int main()
 	ll i,j,k;
 	cout<<setprecision(10);
 	cin>>n;
+	ar[0].x=ar[0].y=ar[0].p=0;
+	ar[0].t=99999999999999;
 	for(i=1;i<=n;i++)
 	cin>>ar[i].x>>ar[i].y>>ar[i].t>>ar[i].p;
 	sort(ar+1,ar+n+1,srt);
