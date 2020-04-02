@@ -4,7 +4,7 @@ using namespace std;
 #define ld long double
 ld dp[1001][1001];
 typedef struct node{
-	ll x,y,t;
+	ld x,y,t;
 	ld p;
 };
 
