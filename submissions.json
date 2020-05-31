@@ -3112,6 +3112,22 @@
     ],
     "timestamp": "Apr/01/2020 11:18"
   },
+  "CF82125488": {
+    "contest_id": 1363,
+    "language": "GNU C++17",
+    "path": "codeforces\\1363\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Game On Leaves",
+    "problem_url": "https://codeforces.com/contest/1363/problem/C",
+    "submission_id": "CF82125488",
+    "submission_url": "https://codeforces.com/contest/1363/submission/82125488",
+    "tags": [
+      "games",
+      "trees",
+      "*1600"
+    ],
+    "timestamp": "May/31/2020 21:37"
+  },
   "CF82496446": {
     "contest_id": 1362,
     "language": "GNU C++17",
