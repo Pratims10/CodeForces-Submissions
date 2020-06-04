@@ -22,25 +22,24 @@ int main()
 	sort(v.begin(),v.end());
 	ll ans[n+1]={0};
 	bool flag=true;
-	for(i=0;i<n;i++)
+	for(i=1;i<=n;i++)
 	{
 		set<ll> st;
-		for(auto x:adj[v[i].second])
+		for(auto x:adj[i])
 		{
-			if(ans[x]!=0)
-				st.insert(ans[x]);
-			if(ans[x]==ar[v[i].second])
+			if(ar[x]<ar[i])
+			st.insert(ar[x]);
+			else if(ar[x]==ar[i])
 			{
 				cout<<-1;
 				return 0;
 			}
 		}
-		if(st.size()!=ar[v[i].second]-1)
+		if(!st.empty() and st.size()!=ar[i]-1)
 		{
 			flag=false;
 			break;
 		}
-		else ans[v[i].second]=ar[v[i].second];
 	}
 	if(!flag) cout<<-1;
 	else
