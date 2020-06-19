@@ -457,6 +457,22 @@
     ],
     "timestamp": "Dec/21/2020 12:09"
   },
+  "CF84299306": {
+    "contest_id": 1251,
+    "language": "GNU C++17",
+    "path": "codeforces\\1251\\B.cpp",
+    "problem_index": "B",
+    "problem_name": "Binary Palindromes",
+    "problem_url": "https://codeforces.com/contest/1251/problem/B",
+    "submission_id": "CF84299306",
+    "submission_url": "https://codeforces.com/contest/1251/submission/84299306",
+    "tags": [
+      "greedy",
+      "strings",
+      "*1400"
+    ],
+    "timestamp": "Jun/19/2020 12:39"
+  },
   "CF84299579": {
     "contest_id": 1251,
     "language": "GNU C++17",
