@@ -457,6 +457,21 @@
     ],
     "timestamp": "Dec/21/2020 12:09"
   },
+  "CF87775349": {
+    "contest_id": 32,
+    "language": "GNU C++17",
+    "path": "codeforces\\32\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Flea",
+    "problem_url": "https://codeforces.com/contest/32/problem/C",
+    "submission_id": "CF87775349",
+    "submission_url": "https://codeforces.com/contest/32/submission/87775349",
+    "tags": [
+      "math",
+      "*1700"
+    ],
+    "timestamp": "Jul/23/2020 18:44"
+  },
   "CF87797095": {
     "contest_id": 98,
     "language": "GNU C++17",
