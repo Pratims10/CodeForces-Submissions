@@ -457,6 +457,21 @@
     ],
     "timestamp": "Dec/21/2020 12:09"
   },
+  "CF87743955": {
+    "contest_id": 31,
+    "language": "GNU C++17",
+    "path": "codeforces\\31\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Schedule",
+    "problem_url": "https://codeforces.com/contest/31/problem/C",
+    "submission_id": "CF87743955",
+    "submission_url": "https://codeforces.com/contest/31/submission/87743955",
+    "tags": [
+      "implementation",
+      "*1700"
+    ],
+    "timestamp": "Jul/23/2020 12:59"
+  },
   "CF87775349": {
     "contest_id": 32,
     "language": "GNU C++17",
