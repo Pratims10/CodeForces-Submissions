@@ -457,6 +457,22 @@
     ],
     "timestamp": "Dec/21/2020 12:09"
   },
+  "CF87797095": {
+    "contest_id": 98,
+    "language": "GNU C++17",
+    "path": "codeforces\\98\\A.cpp",
+    "problem_index": "A",
+    "problem_name": "Help Victoria the Wise",
+    "problem_url": "https://codeforces.com/contest/98/problem/A",
+    "submission_id": "CF87797095",
+    "submission_url": "https://codeforces.com/contest/98/submission/87797095",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1700"
+    ],
+    "timestamp": "Jul/23/2020 22:45"
+  },
   "CF87838148": {
     "contest_id": 98,
     "language": "GNU C++17",

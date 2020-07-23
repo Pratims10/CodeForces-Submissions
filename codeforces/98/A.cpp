@@ -14,6 +14,7 @@ int main()
 		string s1;
 		for(i=0;i<6;i++)
 		s1+=s[ar[i]];
+		//cout<<s<<endl;
 		string s4="ZZZZZZ";
 		string q;
 		s4=min(s4,q+s1[0]+s1[2]+s1[4]+s1[3]+s1[5]+s1[1]);
