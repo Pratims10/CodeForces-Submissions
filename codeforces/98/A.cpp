@@ -49,4 +49,6 @@ int main()
 		mp[s4]++;
 	}while(next_permutation(ar,ar+6));
 	cout<<mp.size()<<endl;
+	//for(auto x:mp)
+	//cout<<x.first<<' '<<x.second<<endl;
 }
