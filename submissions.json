@@ -5765,6 +5765,24 @@
     ],
     "timestamp": "Jul/27/2020 00:03"
   },
+  "CF89183880": {
+    "contest_id": 1343,
+    "language": "GNU C++17",
+    "path": "codeforces\\1343\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Constant Palindrome Sum",
+    "problem_url": "https://codeforces.com/contest/1343/problem/D",
+    "submission_id": "CF89183880",
+    "submission_url": "https://codeforces.com/contest/1343/submission/89183880",
+    "tags": [
+      "brute force",
+      "data structures",
+      "greedy",
+      "two pointers",
+      "*1700"
+    ],
+    "timestamp": "Aug/07/2020 13:02"
+  },
   "CF89220572": {
     "contest_id": 1393,
     "language": "GNU C++17",
