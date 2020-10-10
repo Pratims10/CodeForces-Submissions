@@ -457,6 +457,24 @@
     ],
     "timestamp": "Dec/21/2020 12:09"
   },
+  "CF95087140": {
+    "contest_id": 769,
+    "language": "GNU C++17",
+    "path": "codeforces\\769\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "k-Interesting Pairs Of Integers",
+    "problem_url": "https://codeforces.com/contest/769/problem/D",
+    "submission_id": "CF95087140",
+    "submission_url": "https://codeforces.com/contest/769/submission/95087140",
+    "tags": [
+      "*special problem",
+      "bitmasks",
+      "brute force",
+      "meet-in-the-middle",
+      "*1700"
+    ],
+    "timestamp": "Oct/10/2020 19:55"
+  },
   "CF95645032": {
     "contest_id": 1422,
     "language": "GNU C++17",
