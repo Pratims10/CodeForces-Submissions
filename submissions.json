@@ -457,6 +457,25 @@
     ],
     "timestamp": "Dec/21/2020 12:09"
   },
+  "CF95059351": {
+    "contest_id": 769,
+    "language": "GNU C++17",
+    "path": "codeforces\\769\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Cycle In Maze",
+    "problem_url": "https://codeforces.com/contest/769/problem/C",
+    "submission_id": "CF95059351",
+    "submission_url": "https://codeforces.com/contest/769/submission/95059351",
+    "tags": [
+      "*special problem",
+      "dfs and similar",
+      "graphs",
+      "greedy",
+      "shortest paths",
+      "*1700"
+    ],
+    "timestamp": "Oct/10/2020 13:14"
+  },
   "CF95087140": {
     "contest_id": 769,
     "language": "GNU C++17",
