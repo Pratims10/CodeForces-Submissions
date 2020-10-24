@@ -457,6 +457,24 @@
     ],
     "timestamp": "Dec/21/2020 12:09"
   },
+  "CF96512533": {
+    "contest_id": 796,
+    "language": "GNU C++17",
+    "path": "codeforces\\796\\C.cpp",
+    "problem_index": "C",
+    "problem_name": "Bank Hacking",
+    "problem_url": "https://codeforces.com/contest/796/problem/C",
+    "submission_id": "CF96512533",
+    "submission_url": "https://codeforces.com/contest/796/submission/96512533",
+    "tags": [
+      "constructive algorithms",
+      "data structures",
+      "dp",
+      "trees",
+      "*1900"
+    ],
+    "timestamp": "Oct/24/2020 14:58"
+  },
   "CF96745264": {
     "contest_id": 1436,
     "language": "GNU C++17",
