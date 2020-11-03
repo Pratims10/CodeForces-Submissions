@@ -457,6 +457,24 @@
     ],
     "timestamp": "Dec/21/2020 12:09"
   },
+  "CF97570056": {
+    "contest_id": 208,
+    "language": "GNU C++17",
+    "path": "codeforces\\208\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Blood Cousins",
+    "problem_url": "https://codeforces.com/contest/208/problem/E",
+    "submission_id": "CF97570056",
+    "submission_url": "https://codeforces.com/contest/208/submission/97570056",
+    "tags": [
+      "binary search",
+      "data structures",
+      "dfs and similar",
+      "trees",
+      "*2100"
+    ],
+    "timestamp": "Nov/03/2020 20:17"
+  },
   "CF97572867": {
     "contest_id": 1443,
     "language": "GNU C++17",
