@@ -457,6 +457,22 @@
     ],
     "timestamp": "Dec/21/2020 12:09"
   },
+  "CF99343093": {
+    "contest_id": 1433,
+    "language": "GNU C++17",
+    "path": "codeforces\\1433\\E.cpp",
+    "problem_index": "E",
+    "problem_name": "Two Round Dances",
+    "problem_url": "https://codeforces.com/contest/1433/problem/E",
+    "submission_id": "CF99343093",
+    "submission_url": "https://codeforces.com/contest/1433/submission/99343093",
+    "tags": [
+      "combinatorics",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Nov/23/2020 22:59"
+  },
   "CF99343703": {
     "contest_id": 1433,
     "language": "GNU C++17",
