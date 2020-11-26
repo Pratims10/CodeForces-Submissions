@@ -457,6 +457,22 @@
     ],
     "timestamp": "Dec/21/2020 12:09"
   },
+  "CF99643510": {
+    "contest_id": 204,
+    "language": "GNU C++17",
+    "path": "codeforces\\204\\B.cpp",
+    "problem_index": "B",
+    "problem_name": "Little Elephant and Cards",
+    "problem_url": "https://codeforces.com/contest/204/problem/B",
+    "submission_id": "CF99643510",
+    "submission_url": "https://codeforces.com/contest/204/submission/99643510",
+    "tags": [
+      "binary search",
+      "data structures",
+      "*1500"
+    ],
+    "timestamp": "Nov/26/2020 18:46"
+  },
   "CF99742660": {
     "contest_id": 895,
     "language": "GNU C++17",
