@@ -1,0 +1,19 @@
+{
+  "CF101935594": {
+    "contest_id": 1447,
+    "language": "GNU C++17",
+    "path": "codeforces\\1447\\D.cpp",
+    "problem_index": "D",
+    "problem_name": "Catching Cheaters",
+    "problem_url": "https://codeforces.com/contest/1447/problem/D",
+    "submission_id": "CF101935594",
+    "submission_url": "https://codeforces.com/contest/1447/submission/101935594",
+    "tags": [
+      "dp",
+      "greedy",
+      "strings",
+      "*1800"
+    ],
+    "timestamp": "Dec/21/2020 12:09"
+  }
+}
